@@ -32,6 +32,8 @@ const Search = ({ onSearchChange }) => {
 
   return (
     <div className="search-container">
+      <h1>React Weather App</h1>
+      <h3>To get started, please type location in search bar: </h3>
       <AsyncPaginate
         placeholder="Search for city"
         debounceTimeout={600}

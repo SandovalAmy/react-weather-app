@@ -18,7 +18,7 @@ const Forecast = ({ data }) => {
   return (
     <>
       <button className="button" onClick={handleClick}>
-        Click to Show Forecast
+        Click to Show/Hide Forecast
       </button>
       {isShown && (
         <div className="forecast-container">
